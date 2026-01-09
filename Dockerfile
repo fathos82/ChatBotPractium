@@ -26,6 +26,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Configuração para rodar no Docker
-CMD ["streamlit", "run", "app.py", \
+CMD ["streamlit", "run", "main.py", \
      "--server.port=8501", \
      "--server.address=0.0.0.0"]
